@@ -1,0 +1,15 @@
+﻿<Application x:Class="MultipleThemeLanguageApp.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:MultipleThemeLanguageApp"
+             xmlns:res="clr-namespace:MultipleThemeLanguageApp.Resources"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <res:ThemeResourceDictionary/>
+                <res:TranslationResourceDictionary/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
